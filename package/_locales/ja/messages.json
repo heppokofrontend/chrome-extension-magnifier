@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "拡大鏡 for Browser"
+  },
+  "extDesc": {
+    "message": "マウス操作だけでWebページを拡大表示できるやつ。"
+  },
+  "toolbar_scale": {
+    "message": "倍率"
+  },
+  "toolbar_reset": {
+    "message": "リセット"
+  },
+  "toolbar_exit": {
+    "message": "閉じる"
+  },
+  "context_scroll": {
+    "message": "マウスカーソル位置でスクロール："
+  },
+  "context_scroll_enabled": {
+    "message": "有効"
+  },
+  "context_scroll_disabled": {
+    "message": "無効"
+  },
+  "context_exit": {
+    "message": "終了する"
+  },
+  "checkbox_reverse": {
+    "message": "マウスホイールでのズームを反転する"
+  },
+  "editing": {
+    "message": "編集中：任意のマウスボタンをクリックしてください"
+  },
+  "label_mouse_button": {
+    "message": "マウスボタンの変更："
+  },
+  "right_button": {
+    "message": "右ボタン"
+  },
+  "left_button": {
+    "message": "左ボタン"
+  },
+  "wheel_button": {
+    "message": "中央ボタン"
+  },
+  "unknown_button_before": {
+    "message": "第"
+  },
+  "unknown_button_after": {
+    "message": "ボタン"
+  },
+  "button_after": {
+    "message": " ＋ マウスホイール"
+  }
+}
