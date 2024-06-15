@@ -1,0 +1,39 @@
+{
+  "name": "chrome-extension-magnifier",
+  "description": "A tool to zoom in on web pages using right mouse button and mouse wheel. The zoom method can be customize",
+  "version": "1.0.0",
+  "author": "heppokofrontend",
+  "bugs": {
+    "url": "https://github.com/heppokofrontend/chrome-extension-magnifier/issues"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.220",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "gh-pages": "^3.2.3",
+    "http-server": "^14.1.1",
+    "terser": "^5.7.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "uglify-js": "^3.17.4"
+  },
+  "homepage": "https://github.com/heppokofrontend/chrome-extension-magnifier#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heppokofrontend/chrome-extension-magnifier.git"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc --watch",
+    "eslint": "eslint . --ext .js,.ts --fix",
+    "minify:content": "uglifyjs ./package/content-scripts.js -o ./package/content-scripts.js",
+    "minify:popup": "uglifyjs ./package/popup.js -o ./package/popup.js",
+    "minify:worker": "uglifyjs ./package/worker.js -o ./package/worker.js",
+    "postbuild": "yarn minify:content && yarn minify:popup && yarn minify:worker"
+  }
+}

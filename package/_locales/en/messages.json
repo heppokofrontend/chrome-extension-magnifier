@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "Magnifier for browser"
+  },
+  "extDesc": {
+    "message": "A tool to zoom in on web pages using right mouse button and mouse wheel. The zoom method can be customized!"
+  },
+  "toolbar_scale": {
+    "message": "Scale"
+  },
+  "toolbar_reset": {
+    "message": "Reset"
+  },
+  "context_reset": {
+    "message": "Reset scale"
+  },
+  "toolbar_exit": {
+    "message": "Close"
+  },
+  "context_scroll": {
+    "message": "Scroll by cursor position: "
+  },
+  "context_scroll_enabled": {
+    "message": "On"
+  },
+  "context_scroll_disabled": {
+    "message": "Off"
+  },
+  "context_exit": {
+    "message": "Exit"
+  },
+  "checkbox_reverse": {
+    "message": "Wheel Reverse"
+  },
+  "editing": {
+    "message": "Editing: Please click any mouse button here"
+  },
+  "label_mouse_button": {
+    "message": "Click to change the mouse button to for zooming:"
+  },
+  "right_button": {
+    "message": "[Right Button]"
+  },
+  "left_button": {
+    "message": "[Left Button]"
+  },
+  "wheel_button": {
+    "message": "[Wheel Button]"
+  },
+  "unknown_button_before": {
+    "message": "[No. "
+  },
+  "unknown_button_after": {
+    "message": " Button]"
+  },
+  "button_after": {
+    "message": " + [Mouse Wheel]"
+  }
+}

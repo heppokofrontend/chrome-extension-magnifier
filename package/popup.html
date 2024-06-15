@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="extName"></title>
+    <link rel="stylesheet" href="./popup.css" />
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 data-i18n="extName"></h1>
+
+      <div class="main">
+        <div class="options">
+          <p>
+            <label>
+              <span class="img">
+                <img src="./images/observe.svg" width="16" height="16" alt="" />
+              </span>
+              <input type="checkbox" data-option-type="wheelReverse" />
+              <span class="label" data-i18n="checkbox_reverse">loading...</span>
+            </label>
+          </p>
+
+          <p>
+            <span data-i18n="label_mouse_button" id="label">loading...</span>
+            <span tabindex="0" id="field" aria-labelledby="label" aria-live="assertive"
+              >Right Mouse Button</span
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
