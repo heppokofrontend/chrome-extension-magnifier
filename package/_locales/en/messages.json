@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Magnifier for browser"
+    "message": "Magnifier Usable Only with Mouse"
   },
   "extDesc": {
-    "message": "A tool to zoom in on web pages using right mouse button and mouse wheel. The zoom method can be customized!"
+    "message": "A tool to zoom in on web pages without using a keyboard. The zoom method can be customized!"
   },
   "toolbar_scale": {
     "message": "Scale"

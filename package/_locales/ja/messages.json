@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "拡大鏡 for Browser"
+    "message": "マウスユーザのための拡大鏡"
   },
   "extDesc": {
-    "message": "マウス操作だけでWebページを拡大表示できるやつ。"
+    "message": "キーボード操作なしでWebページを拡大表示できるやつ。"
   },
   "toolbar_scale": {
     "message": "倍率"
